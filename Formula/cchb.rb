@@ -2,24 +2,24 @@ class Cchb < Formula
   desc "TUI tool for browsing and restoring past Claude Code session history"
   homepage "https://github.com/iselegant/cchb"
   license "Apache-2.0"
-  version "0.9.4"
+  version "0.9.5"
 
   on_macos do
     on_arm do
       url "https://github.com/iselegant/cchb/releases/download/v#{version}/cchb-aarch64-apple-darwin.tar.gz"
-      sha256 "b1c9e0faf960cbc3b5b58ff52194dc184f457566273768a97104683de6999f4c"
+      sha256 "e4f0cb166332c93914914fb2b4b35ce513cec400ff4b1579aca9aa1125650e03"
     end
 
     on_intel do
       url "https://github.com/iselegant/cchb/releases/download/v#{version}/cchb-x86_64-apple-darwin.tar.gz"
-      sha256 "6eaee27a6f25e79146978fb3f100220f55290a9fff8f9ae215b481462a5c9201"
+      sha256 "43c17a41d702cf0885c8fbace298c976c2c8778a76c1f8e67355c0d3ee302483"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/iselegant/cchb/releases/download/v#{version}/cchb-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "74535346bca7f2c734a2b2810b5d4faa1d9f8e97ed83dd8d710a84fa27c4c5f9"
+      sha256 "ea82cf83cd39ea1c84e02995cb3c6a03b9a2b807a0c625dbb8fdbfbc8356ed9e"
     end
   end
 
